@@ -1,3 +1,4 @@
 Line added from master
 Line added from client 
 Line 2 added from master
+Line 3 added from master
