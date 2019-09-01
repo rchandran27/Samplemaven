@@ -1,2 +1,4 @@
 sudo yum remove samba -y
-curl -u user1:test123 http://192.168.1.13:8080/job/Pro_test_job/build?token=12345
+curl -u user1:test123 http://192.168.0.120:8080/job/Pro_test_job/build?token=12345
+touch /tmp/jobdetails
+echo "git test job started" >> /tmp/jobdetails
