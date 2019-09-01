@@ -1,6 +1,2 @@
-test file
-added line 1
-add line 2c
-code 12345
-code 657 master
-line added by b1
+yum install samba -y
+curl -u user1:test123 http://192.168.0.120:8080/job/Pro_test_job/build?token=12345
