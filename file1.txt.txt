@@ -1,2 +1,2 @@
-yum install samba -y
-curl -u user1:test123 http://192.168.0.120:8080/job/Pro_test_job/build?token=12345
+yum remove samba -y
+echo "finished dev job" >> /tmp/jobdetails
