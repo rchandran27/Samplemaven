@@ -1,6 +1,6 @@
 node{
     stage('Checkout SCM'){
-        git 'https://github.com/Vishwanathms/SampleMaven'
+        git 'https://github.com/rchandran27/SampleMaven'
     }
     stage('Compile-Package'){
         def mvnHome = tool name: 'maven-3.6.1', type: 'maven'
