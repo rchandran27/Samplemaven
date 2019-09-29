@@ -1,6 +1,5 @@
 pipeline {
-    agent { label 'GR1' }
-    stages {
+        stages {
         stage ("SCM Checkin-1") {
             steps {
               git branch: 'master', url: 'https://github.com/rchandran27/SampleMaven'
