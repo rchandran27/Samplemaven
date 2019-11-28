@@ -9,4 +9,5 @@ node{
     stage('Docker deploy'){
         sh 'docker build .' 
     }
+    
 }
